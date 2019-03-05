@@ -308,6 +308,7 @@ Returns the node's RPC version
    >>> rpc.version()
    {
        "rpc_version": 1,
-       "store_version": 10,
-       "node_vendor": "RaiBlocks 9.0"
+       "store_version": 13,
+       "protocol_version": 16,
+       "node_vendor": "Nano 18.0"
    }

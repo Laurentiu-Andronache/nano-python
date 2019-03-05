@@ -1,17 +1,19 @@
 [
   {
     "expected": {
-      "node_vendor": "RaiBlocks 9.0",
+      "node_vendor": "Nano 18.0",
+      "protocol_version": 16,
       "rpc_version": 1,
-      "store_version": 10
+      "store_version": 13
     },
     "request": {
       "action": "version"
     },
     "response": {
-      "node_vendor": "RaiBlocks 9.0",
+      "node_vendor": "Nano 18.0",
+      "protocol_version": "16",
       "rpc_version": "1",
-      "store_version": "10"
+      "store_version": "13"
     }
   }
 ]

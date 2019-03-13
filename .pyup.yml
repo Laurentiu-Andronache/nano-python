@@ -1,0 +1,21 @@
+# update schedule
+# default: empty
+# allowed: "every day", "every week", ..
+schedule: "every day"
+
+# search for requirement files
+# default: True
+# allowed: True, False
+search: False
+
+# Specify requirement files by hand, default is empty
+# default: empty
+# allowed: list
+requirements:
+  - requirements.pip:
+      # update all dependencies and pin them
+      update: all
+      pin: True
+  - requirements-dev.pip:
+      # don't update dependencies, use global 'pin' default
+      update: False

@@ -9,17 +9,17 @@ Nano (RaiBlocks) Python Library
     :target: https://travis-ci.org/dourvaris/nano-python
 
 .. image:: https://readthedocs.org/projects/nano-python/badge/?version=latest
-    :target: http://nano-python.readthedocs.io/en/latest/?badge=latest
+    :target: https://nano-python.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. image:: https://github.com/dourvaris/nano-python/raw/master/coverage.svg?sanitize=true
     :target: https://travis-ci.org/dourvaris/nano-python
 
 .. image:: https://img.shields.io/pypi/pyversions/nano-python.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/nano-python
+    :target: https://pypi.org/project/nano-python/
 
 .. image:: https://img.shields.io/pypi/v/nano-python.svg
-    :target: https://pypi.python.org/pypi/nano-python
+    :target: https://pypi.org/project/nano-python/
 
 This library contains a python wrapper for the Nano (RaiBlocks) RPC server
 which tries to make it a little easier to work with by converting RPC responses

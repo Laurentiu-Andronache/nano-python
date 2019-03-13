@@ -77,6 +77,7 @@ Crypto/Accounts
 ===============
 
 .. code-block:: python
+
     >>> from nano import generate_account, verify_signature, sign_message
     >>> account = generate_account(seed='someseed')
     >>> signature = sign_message(b'this', account['private_key_bytes'])

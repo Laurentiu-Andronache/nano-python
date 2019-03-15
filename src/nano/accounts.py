@@ -13,7 +13,7 @@ Accounts module
 
 """
 
-import random
+import secrets
 from binascii import hexlify, unhexlify
 
 from .crypto import b32xrb_encode, b32xrb_decode, address_checksum, keypair_from_seed
@@ -129,7 +129,7 @@ def generate_account(seed=None, index=0):
     """
 
     if not seed:
-        seed = unhexlify(''.join(random.choice('0123456789ABCDEF') for i in range(64)))
+        seed = unhexlify(''.join(secrets.choice('0123456789ABCDEF') for i in range(64)))
 
     pair = keypair_from_seed(seed, index=index)
     result = {
